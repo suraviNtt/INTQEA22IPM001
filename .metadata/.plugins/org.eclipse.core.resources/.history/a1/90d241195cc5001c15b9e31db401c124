@@ -1,0 +1,28 @@
+package our_project_name.utilities;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+/**
+ * Select mutiple brower driver functions
+ * @author Class Creator Name
+ *
+ */
+public class DriverDefination {
+
+	/**
+	 * 
+	 */
+	private void setChrome() {
+		WebDriverManager.chromedriver().setup();
+	}
+	
+	/**
+	 *  firefox browser setup
+	 *  @author User
+	 */
+	private void setFirefox() {
+		WebDriverManager.firefoxdriver().setup();
+	}
+	
+	
+}

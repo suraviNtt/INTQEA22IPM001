@@ -1,0 +1,22 @@
+package our_project_name.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import our_project_name.pages.HomePage;
+import our_project_name.utilities.DriverDefination;
+
+public class LoginTest {
+	
+	
+
+	@Test
+	public void verifyLoginSuccessWithValidCreds() throws Exception {
+		DriverDefination driverDefination = new DriverDefination();
+		WebDriver driver = driverDefination.setBrowser("chrome");
+		HomePage homePage = new HomePage(driver);
+		homePage.openLoginPage();
+		driver.close();
+		
+	}
+}

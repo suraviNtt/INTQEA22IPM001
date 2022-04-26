@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;our_project_name.pages.SearchResultpage&apos; to &apos;SearchResultPage&apos;&#x0D;&#x0A;- Original project: &apos;our_project_name&apos;&#x0D;&#x0A;- Original element: &apos;our_project_name.pages.SearchResultpage&apos;&#x0D;&#x0A;- Renamed element: &apos;our_project_name.pages.SearchResultPage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SearchResultpage&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;our_project_name.pages{SearchResultpage.java[SearchResultpage" matchStrategy="1" name="SearchResultPage" qualified="false" references="true" similarDeclarations="false" stamp="1650977276971" textual="false" version="1.0"/>
+</session>

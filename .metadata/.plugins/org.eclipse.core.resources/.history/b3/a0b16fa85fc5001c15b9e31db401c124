@@ -1,0 +1,12 @@
+package our_project_name.tests;
+
+import org.testng.annotations.Test;
+
+public class LoginTest {
+
+	@Test
+	public void verifyLoginSuccessWithValidCreds() {
+		// TODO Auto-generated method stub
+
+	}
+}

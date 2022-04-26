@@ -1,0 +1,5 @@
+package our_project_name.handlers;
+
+public class CommonMethods {
+
+}

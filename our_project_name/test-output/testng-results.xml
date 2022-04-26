@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-26T18:47:46 IST" name="Suite" finished-at="2022-04-26T18:48:09 IST" duration-ms="23170">
+    <groups>
+    </groups>
+    <test started-at="2022-04-26T18:47:46 IST" name="Test" finished-at="2022-04-26T18:48:09 IST" duration-ms="23170">
+      <class name="our_project_name.tests.LoginTest">
+        <test-method is-config="true" signature="brforeCls()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:46 IST" name="brforeCls" finished-at="2022-04-26T18:47:46 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeCls -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:46 IST" name="openLoginPage" finished-at="2022-04-26T18:47:51 IST" duration-ms="4914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginFailureWithInvalidPassword()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:51 IST" name="verifyLoginFailureWithInvalidPassword" finished-at="2022-04-26T18:47:51 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFailureWithInvalidPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:51 IST" name="closeBrowser" finished-at="2022-04-26T18:47:51 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:51 IST" name="openLoginPage" finished-at="2022-04-26T18:47:53 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginFailureWithInvalidUsername()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:53 IST" name="verifyLoginFailureWithInvalidUsername" finished-at="2022-04-26T18:47:53 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFailureWithInvalidUsername -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:53 IST" name="closeBrowser" finished-at="2022-04-26T18:47:53 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:53 IST" name="openLoginPage" finished-at="2022-04-26T18:47:55 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginSuccessWithValidCreds()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:55 IST" name="verifyLoginSuccessWithValidCreds" finished-at="2022-04-26T18:47:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessWithValidCreds -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.LoginTest@3012646b]" started-at="2022-04-26T18:47:55 IST" name="closeBrowser" finished-at="2022-04-26T18:47:55 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- our_project_name.tests.LoginTest -->
+      <class name="our_project_name.tests.SearchTest">
+        <test-method is-config="true" signature="brforeCls()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:02 IST" name="brforeCls" finished-at="2022-04-26T18:48:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeCls -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:02 IST" name="openLoginPage" finished-at="2022-04-26T18:48:04 IST" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginFailureWithInvalidPassword()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:04 IST" name="verifyLoginFailureWithInvalidPassword" finished-at="2022-04-26T18:48:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFailureWithInvalidPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:04 IST" name="closeBrowser" finished-at="2022-04-26T18:48:04 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:04 IST" name="openLoginPage" finished-at="2022-04-26T18:48:06 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginFailureWithInvalidUsername()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:06 IST" name="verifyLoginFailureWithInvalidUsername" finished-at="2022-04-26T18:48:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFailureWithInvalidUsername -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:06 IST" name="closeBrowser" finished-at="2022-04-26T18:48:06 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:06 IST" name="openLoginPage" finished-at="2022-04-26T18:48:08 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginSuccessWithValidCreds()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:08 IST" name="verifyLoginSuccessWithValidCreds" finished-at="2022-04-26T18:48:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessWithValidCreds -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.SearchTest@229c6181]" started-at="2022-04-26T18:48:09 IST" name="closeBrowser" finished-at="2022-04-26T18:48:09 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- our_project_name.tests.SearchTest -->
+      <class name="our_project_name.tests.SearchResultTest">
+        <test-method is-config="true" signature="brforeCls()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:47:55 IST" name="brforeCls" finished-at="2022-04-26T18:47:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeCls -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:47:55 IST" name="openLoginPage" finished-at="2022-04-26T18:47:57 IST" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginFailureWithInvalidPassword()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:47:57 IST" name="verifyLoginFailureWithInvalidPassword" finished-at="2022-04-26T18:47:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFailureWithInvalidPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:47:57 IST" name="closeBrowser" finished-at="2022-04-26T18:47:58 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:47:58 IST" name="openLoginPage" finished-at="2022-04-26T18:48:00 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginFailureWithInvalidUsername()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:48:00 IST" name="verifyLoginFailureWithInvalidUsername" finished-at="2022-04-26T18:48:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFailureWithInvalidUsername -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:48:00 IST" name="closeBrowser" finished-at="2022-04-26T18:48:00 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:48:00 IST" name="openLoginPage" finished-at="2022-04-26T18:48:02 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="verifyLoginSuccessWithValidCreds()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:48:02 IST" name="verifyLoginSuccessWithValidCreds" finished-at="2022-04-26T18:48:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessWithValidCreds -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:our_project_name.tests.SearchResultTest@4d154ccd]" started-at="2022-04-26T18:48:02 IST" name="closeBrowser" finished-at="2022-04-26T18:48:02 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- our_project_name.tests.SearchResultTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

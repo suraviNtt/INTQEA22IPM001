@@ -1,0 +1,53 @@
+package our_project_name.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import our_project_name.pages.HomePage;
+import our_project_name.utilities.DriverDefination;
+
+/**
+ * 
+ * @author User
+ *
+ */
+public class LoginTest {
+	DriverDefination driverDefination;
+	HomePage homePage;
+
+	@BeforeMethod
+	public void openLoginPage() throws InterruptedException {
+		driverDefination = new DriverDefination();
+		WebDriver driver = driverDefination.setBrowser("chrome");
+		homePage = new HomePage(driver);
+		homePage.openLoginPage();
+	}
+
+	@Test
+	public void verifyLoginSuccessWithValidCreds() throws  {
+		
+		homePage.enterloginCreds("user", "pass");
+		
+	}
+
+	@Test
+	public void verifyLoginFailureWithInvalidUsername() throws Exception {
+		DriverDefination driverDefination = new DriverDefination();
+		WebDriver driver = driverDefination.setBrowser("chrome");
+		HomePage homePage = new HomePage(driver);
+		homePage.openLoginPage();
+		homePage.enterloginCreds("user", "pass");
+		driver.close();
+	}
+
+	@Test
+	public void verifyLoginFailureWithInvalidPassword() throws Exception {
+		DriverDefination driverDefination = new DriverDefination();
+		WebDriver driver = driverDefination.setBrowser("chrome");
+		HomePage homePage = new HomePage(driver);
+		homePage.openLoginPage();
+		homePage.enterloginCreds("user", "pass");
+		driver.close();
+	}
+}
